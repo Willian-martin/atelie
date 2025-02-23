@@ -154,7 +154,9 @@ nav ul li a {
 }
 
 footer {
-    margin: 100px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
 }
 
 /* Estilo do ícone flutuante do WhatsApp */
@@ -182,3 +184,28 @@ footer {
     width: 40px;
     height: 40px;
 }
+
+    #chat-form {
+        display: flex;
+    }
+
+    #user-input {
+        flex: 1;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    button {
+        padding: 5px 10px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #218838;
+    }
