@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(/imagens-pag/yarn-2564556_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -56,7 +59,7 @@ nav ul li a {
 
 .produto:hover{
     transform: scale(1.05);
-    box-shadow: 0  4px 8px rgba(0, 0, 0,0.2);
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.501);
 }
 .produto img {
     width: 150px;
@@ -138,10 +141,10 @@ nav ul li a {
 
 .container {
     max-width: 800px;
-    margin: 20px ;
+    margin: 20px auto;
     padding: 20px;
     background-color: white;
-    box-shadow: 2px 0px 0px 3px #e95886;
+    box-shadow: 2px 0px 0px 2px rgba(0, 0, 0, 0.077);
     border-radius: 8px;
 }
 
